@@ -133,7 +133,9 @@ body {
     width: 350px;
 }
 
-.btn-1 {
+.btn-1,
+.more-2,
+.more-1 {
     background-color: #D7DAE5;
     display: inline-block;
     text-transform: capitalize;
@@ -146,7 +148,59 @@ body {
     transition-duration: 1s;
 }
 
-.btn-1:hover {
+.btn-1:hover,
+.more-2:hover,
+.more-1:hover {
     padding: 15px;
     letter-spacing: 1.5px;
+}
+
+.service {
+    padding: 50px 0;
+    display: flex;
+}
+
+.service-1 {
+    width: 25%;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 10px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-right: 10px;
+}
+
+.service-1 img {
+    width: 80px;
+    margin-bottom: 25px;
+}
+
+
+.service-1 h3 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.service-1 p {
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+.service-2 {
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.service-2 span{
+    margin-top: 20px;
+}
+
+.service-2 h2 {
+    text-transform: capitalize;
+}
+
+.service-2 p {
+    padding: 5px 15px;
 }
